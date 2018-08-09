@@ -31,7 +31,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background: grey;
 }
 ol, ul {
 	list-style: none;
@@ -66,3 +67,39 @@ header {
     float: right;
     width: 240px;
 }
+.content {
+background: black;
+width: 67%;
+margin: 75px auto;
+padding-top: 15px;
+}
+.container{
+
+}
+.line1, .line2, .line3 {
+background: white;
+margin: 15px auto;
+border: 1px black;
+}
+.line1 {
+    width: 75%;
+    height: 50px;
+}
+.line2 {
+    width: 63%;
+    height: 50px;
+}
+.line3{
+    width: 70%;
+    background: black;
+}
+.pill{
+    background: white;
+    height: 30px;
+    display: inline-block;
+    width: 49%;
+    border: 1px, white;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    }
