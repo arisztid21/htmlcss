@@ -22,3 +22,43 @@ header{
     width: 20%;
     float: right;
 }
+
+main{
+    background: plum;
+    padding: 100px 2px;
+}
+
+.content{
+    background: purple;
+    padding: 50px;
+    height: 300px;
+}
+
+.line1{
+    background: yellow;
+    height: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.line2{
+    background: yellow;
+    height: 36px;
+    width: 70%;
+    margin: 20px auto 0;
+}
+
+.line3{
+    margin-top: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+}
+
+.pill{
+    display: inline-block;
+    border-radius: 30px;
+    background: lime;
+    height: 30px;
+    width: 40%;
+}
